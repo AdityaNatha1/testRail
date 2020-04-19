@@ -8,7 +8,7 @@ public class LoginTest {
        Assert.assertEquals(true,true);
     }
 
-    @Test(groups ={"Functional", "Regression"}, testName = "Verify if a user cannot login with a valid username and an invalid password. ")
+    @Test(groups ={"Functional", "Regression"}, testName = "Verify if a user cannot login with a valid username and an invalid password.")
     public void test2(){
         Assert.assertEquals(true,true);
     }
@@ -18,7 +18,7 @@ public class LoginTest {
         Assert.assertEquals(true,true);
     }
 
-    @Test(groups ={"Functional", "Smoke", "Regression"}, testName = "Verify the ‘Forgot Password’ functionality.")
+    @Test(groups ={"Functional", "Smoke", "Regression"}, testName = "Verify the ‘Forgot Password’ functionality.", dependsOnMethods = "test1")
     public void test4(){
         Assert.assertEquals(true,true);
     }
