@@ -1,0 +1,64 @@
+Functional Test Cases:
+
+1. Rename alerts_looker channel to pin-ap-semantic-alerts
+   - Input: Existing channel name = alerts_looker, New channel name = pin-ap-semantic-alerts
+   - Expected Output: The channel is renamed successfully and the new name is reflected in the Looker Platformization effort
+   - Edge Case: Try to rename the channel with a name that already exists
+
+2. Improve Looker dashboard performance
+   - Input: Access the Looker dashboard during long running operations
+   - Expected Output: The dashboard loads without issues regardless of operation duration
+   - Edge Case: Try to load the dashboard with extremely high data-heavy operations
+
+3. Separate Performance from Quality metrics
+   - Input: Split the Performance from Quality metrics
+   - Expected Output: The metrics are separated and are individually trackable and reportable
+   - Edge Case: Try to separate overlapping metrics or dependencies between performance and quality
+
+4. Fix query error for Bottom Geo Performers - L1
+   - Input: Execute the query for Bottom Geo Performers - L1 with suppliers
+   - Expected Output: The query handles the presence of suppliers without errors and monitoring/filtering works correctly for bottom geo performers
+   - Edge Case: Try to execute the query with invalid or missing supplier data
+
+5. Implement LookML generation for overall and share of metrics
+   - Input: Use the contract deployment mechanism
+   - Expected Output: LookML for overall and share of metrics is generated correctly
+   - Edge Case: Try to generate LookML with incorrect or missing parameters
+
+6. Update documentation for AAH
+   - Input: Add new changes and features to the AAH documentation
+   - Expected Output: The documentation reflects these changes and is clear and understandable
+   - Edge Case: Try to update the documentation with invalid or incorrect information
+
+7. Realign industry verticals
+   - Input: Perform the realignment of industry verticals
+   - Expected Output: The realignment matches current market trends and covers all relevant industry verticals
+   - Edge Case: Try to realign the verticals with outdated or irrelevant market trends
+
+8. Optimize Twitter Brand Suitability performance
+   - Input: Apply optimizations to the Twitter Brand Suitability feature
+   - Expected Output: Load times are reduced and response rates are improved
+   - Edge Case: Apply optimizations that could potentially degrade the performance
+
+9. Fix production query errors
+   - Input: Review the errors in last month's production queries
+   - Expected Output: Fixes are applied and the queries run reliably
+   - Edge Case: Try to fix the errors without identifying the root cause
+
+10. Fix issues in AD_SERVER_PLACEMENT_CODE lines 20, 22, 31, 36, 37, 40
+    - Input: Review the specified lines of AD_SERVER_PLACEMENT_CODE
+    - Expected Output: The logic is fixed and it works as expected
+    - Edge Case: Try to fix the code without understanding the logic
+
+Non-Functional Test Cases:
+
+1. Test the Load and Performance of the Looker Dashboard during peak times
+2. Test the Usability of the Looker Dashboard for new users
+3. Test the Scalability of the Looker Dashboard by adding more data-heavy operations
+4. Test the Compatibility of the Looker Dashboard on different devices and browsers
+5. Test the Security of the Looker Dashboard by trying to access restricted data
+6. Test the Recovery of the Looker Dashboard in case of failures or crashes
+7. Test the Reliability of the Looker Dashboard by checking the error rate
+8. Test the Maintainability of the Looker Dashboard by checking the ease of modifications
+9. Test the Efficiency of the Looker Dashboard by measuring the response times
+10. Test the Portability of the Looker Dashboard by moving it to a different server.
