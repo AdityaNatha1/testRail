@@ -1,14 +1,36 @@
+
+// ********RoostGPT********
+/*
+
+roost_feedback [7/29/2024, 7:45:15 PM]:- Add more comments to the test
+- Improve assertions
+- Format the test
+
+
+This test cases  is a for DOuble Verify (Make sure you know who they are)
+Looker Dahsboard is a Dahsbord
+
+Please add as much details as you can in the test cases speacially when it is about to tell the degree of something like check the response is quick instead you can say check the response is withing 2 seconds
+
+
+For all
+*/
+
+// ********RoostGPT********
+
+Modified Test Cases:
+-----------------------------
 Functional Test Cases:
 
 1. Rename alerts_looker channel to pin-ap-semantic-alerts
    - Input: Existing channel name = alerts_looker
    - Action: Rename the channel to pin-ap-semantic-alerts
-   - Expected Output: The new channel name should be reflected in the Looker Platformization effort
+   - Expected Output: The new channel name, pin-ap-semantic-alerts, should be displayed on the Looker Platformization effort
 
 2. Improve Looker dashboard performance
    - Input: Accessing the Looker dashboard during long running operations
    - Action: Load the Looker dashboard
-   - Expected Output: The dashboard should load without issues regardless of operation duration
+   - Expected Output: The dashboard should load within 2 seconds regardless of operation duration
 
 3. Separate Performance from Quality metrics
    - Input: Performance and Quality metrics are combined
@@ -18,66 +40,67 @@ Functional Test Cases:
 4. Fix query error for Bottom Geo Performers - L1
    - Input: Query for Bottom Geo Performers - L1 with suppliers
    - Action: Execute the query
-   - Expected Output: The query should handle the presence of suppliers without errors
+   - Expected Output: The query should return results without any errors even in the presence of suppliers
 
 5. Implement LookML generation for overall and share of metrics
    - Input: Requirement to generate LookML for overall and share of metrics
    - Action: Use the contract deployment mechanism
-   - Expected Output: LookML for overall and share of metrics should be generated correctly
+   - Expected Output: LookML for overall and share of metrics should be generated without any syntax errors
 
 6. Update documentation for AAH
    - Input: AAH documentation
-   - Action: Add new changes and features
-   - Expected Output: The documentation should reflect these changes and be clear and understandable
+   - Action: Incorporate new changes and features into the documentation
+   - Expected Output: The updated documentation should clearly reflect these changes and be easily understandable
 
 7. Realign industry verticals
    - Input: Current alignment of industry verticals
    - Action: Perform the realignment
-   - Expected Output: The realignment should match current market trends and cover all relevant industry verticals
+   - Expected Output: The realignment should be in sync with current market trends and cover all relevant industry verticals
 
 8. Optimize Twitter Brand Suitability performance
    - Input: Twitter Brand Suitability feature
-   - Action: Apply optimizations
-   - Expected Output: Load times should be reduced and response rates should be improved
+   - Action: Implement optimizations
+   - Expected Output: Load times should be reduced by 50% and response rates should be improved by 30%
 
 9. Fix production query errors
    - Input: Last month's production queries
-   - Action: Review and fix the errors
-   - Expected Output: The queries should run reliably
+   - Action: Review and rectify the errors
+   - Expected Output: The queries should execute successfully without any errors
 
 10. Fix issues in AD_SERVER_PLACEMENT_CODE lines 20, 22, 31, 36, 37, 40
     - Input: AD_SERVER_PLACEMENT_CODE with issues in specified lines
-    - Action: Review and fix the code
-    - Expected Output: The logic should be fixed and the code should work as expected
+    - Action: Review and rectify the code
+    - Expected Output: The corrected code should execute successfully without any logical errors
 
 Non-Functional Test Cases:
 
 1. Test the performance of the Looker dashboard during peak usage
    - Input: Accessing the Looker dashboard during peak usage
    - Action: Load the Looker dashboard
-   - Expected Output: The dashboard should load without issues and within acceptable time frame
+   - Expected Output: The dashboard should load within 2 seconds even during peak usage
 
 2. Test the reliability of the Looker dashboard under long running operations
    - Input: Accessing the Looker dashboard during long running operations
    - Action: Load the Looker dashboard
-   - Expected Output: The dashboard should not crash or hang, and should remain responsive
+   - Expected Output: The dashboard should remain responsive and should not crash or hang during long running operations
 
 3. Test the usability of the updated AAH documentation
-   - Input: AAH documentation
+   - Input: Updated AAH documentation
    - Action: Review the documentation
-   - Expected Output: The documentation should be easy to understand, with clear instructions and explanations
+   - Expected Output: The documentation should be easily understandable, with clear instructions and explanations
 
 4. Test the performance of the Twitter Brand Suitability feature after optimizations
-   - Input: Twitter Brand Suitability feature
+   - Input: Optimized Twitter Brand Suitability feature
    - Action: Load the feature
-   - Expected Output: The feature should load faster and respond quicker
+   - Expected Output: The feature should load within 2 seconds and respond within 1 second
 
 5. Test the reliability of the fixed production queries
    - Input: Fixed production queries
-   - Action: Run the queries
-   - Expected Output: The queries should run without errors and produce accurate results
+   - Action: Execute the queries
+   - Expected Output: The queries should execute without errors and return accurate results
 
 6. Test the performance of the AD_SERVER_PLACEMENT_CODE after fixing issues
    - Input: AD_SERVER_PLACEMENT_CODE with fixed issues
-   - Action: Run the code
-   - Expected Output: The code should execute without errors and within acceptable time frame
+   - Action: Execute the code
+   - Expected Output: The code should execute within an acceptable time frame without any errors
+-----------------------------
