@@ -1,0 +1,60 @@
+Functional Test Cases:
+
+1. Define new routes excluding datapoints call:
+   - Input: Define new routes
+   - Expected output: New routes handle request/response objects, datapoints call is not included
+
+2. Investigate RMS crashes occurring on the 9th of each month:
+   - Input: Simulate RMS crashes on the 9th of each month
+   - Expected output: The underlying issue should be identified and a solution should be proposed
+
+3. Enforce co-requisite configuration in Data Access API:
+   - Input: Make a data API request
+   - Expected output: The system should check for co-requisite compatibility and throw an error if the configuration does not pass
+
+4. Fix issues with audit endpoints:
+   - Input: Access the audit endpoints
+   - Expected output: The issues with audit endpoints should be resolved and the endpoints should function correctly
+
+5. Ensure reports reflect timezone based on program settings:
+   - Input: Generate a report
+   - Expected output: The correct timezone should be applied and the data should be accurate
+
+6. Restrict report delivery to non-corporate email addresses:
+   - Input: Deliver a report
+   - Expected output: The report should not be sent to non-corporate email domains and should only go to approved email addresses
+
+7. Filter audit endpoints by report type ID:
+   - Input: Apply a filter by report type ID
+   - Expected output: The audit results should be filtered accordingly and only relevant data should be displayed
+
+
+Non-Functional Test Cases:
+
+1. Performance Test:
+   - Input: Simultaneous multiple requests to the new routes and audit endpoints
+   - Expected output: The system should handle multiple requests without crashing and within acceptable response time
+
+2. Security Test:
+   - Input: Attempt unauthorized access to audit endpoints
+   - Expected output: Unauthorized access should be denied
+
+3. Load Test:
+   - Input: Increase the number of requests gradually until the maximum limit
+   - Expected output: The system should handle the increased load without crashing or slowing down significantly
+
+4. Stress Test:
+   - Input: Exceed the number of maximum requests
+   - Expected Output: The system should handle the stress and recover from crashes if they occur
+
+5. Usability Test:
+   - Input: User interaction with the system
+   - Expected Output: The system should be easy to use and intuitive
+
+6. Compatibility Test:
+   - Input: Access the system using different devices and browsers
+   - Expected Output: The system should be compatible with different devices and browsers
+
+7. Reliability Test:
+   - Input: Continuous operation of the system
+   - Expected Output: The system should operate without critical failures for a specified period of time
