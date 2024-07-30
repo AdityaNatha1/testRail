@@ -1,0 +1,58 @@
+Functional Test Cases:
+
+1. Update Campaign PDF report to version 2.4
+   - Input: Campaign PDF report version 2.3
+   - Action: Update the report to version 2.4
+   - Expected Output: The updated report should reflect the version 2.4 changes and include all relevant campaign data.
+
+2. Update Category List UI to use Pinnacle UI Library 9.2.x
+   - Input: Current Category List UI version
+   - Action: Update the UI to use Pinnacle UI Library 9.2.x
+   - Expected Output: The updated UI should utilize the new version and improve the UI performance and consistency.
+
+3. Auto-process campaign and account files for Instacart
+   - Input: Campaign and account files
+   - Action: Implement auto-processing of files
+   - Expected Output: The files should be processed automatically, reliably, and efficiently.
+
+4. Investigate and resolve Campaign Automator bug
+   - Input: Campaign Automator with bug
+   - Action: Investigate and resolve the issue
+   - Expected Output: The bug should be identified and a solution should be implemented.
+
+5. Update API Proxy to reflect latest changes
+   - Input: API Proxy version
+   - Action: Update the API Proxy
+   - Expected Output: The API Proxy should reflect the latest updates and continue to function correctly.
+
+6. Create a new Pinterest profile
+   - Input: User details for new Pinterest profile
+   - Action: Create a new Pinterest profile
+   - Expected Output: The profile should be successfully created and accessible in the IQ Blueprint.
+
+7. Fix Duplicate SF UC List Records Issue
+   - Input: Salesforce with duplicate UC list records
+   - Action: Initiate cleanup process
+   - Expected Output: The duplicates should be removed and the data should be accurate and consistent.
+
+Non-Functional Test Cases:
+
+1. Performance Testing
+   - Input: Updated Category List UI using Pinnacle UI Library 9.2.x
+   - Action: Measure the response time, system speed, and stability under a workload
+   - Expected Output: The UI should perform efficiently and consistently.
+
+2. Security Testing
+   - Input: New Pinterest profile
+   - Action: Test the security measures in place for user data protection
+   - Expected Output: The user data should be secure and inaccessible to unauthorized users.
+
+3. Usability Testing
+   - Input: Updated Campaign PDF report version 2.4
+   - Action: Test the usability and user-friendliness of the report
+   - Expected Output: The report should be easy to navigate and understand by the user.
+
+4. Compatibility Testing
+   - Input: Updated API Proxy
+   - Action: Test the compatibility of the API Proxy with different systems and platforms
+   - Expected Output: The API Proxy should function correctly across all tested systems and platforms.
