@@ -1,0 +1,50 @@
+Functional Test Cases:
+
+1. Update Campaign PDF report to version 2.4
+   - Input: Campaign PDF report version 2.3
+   - Action: Update the report to version 2.4
+   - Expected Output: The updated report should reflect the version 2.4 changes and include all relevant campaign data.
+
+2. Update Category List UI to use Pinnacle UI Library 9.2.x
+   - Input: Current Category List UI version
+   - Action: Update the UI to use Pinnacle UI Library 9.2.x
+   - Expected Output: The updated UI should utilize the new version and improve the UI performance and consistency.
+
+3. Auto-process campaign and account files for Instacart
+   - Input: Campaign and account files
+   - Action: Implement auto-processing of the files 
+   - Expected Output: The files should be processed automatically, reliably, and efficiently.
+
+4. Investigate and resolve Campaign Automator bug
+   - Input: Campaign Automator with a bug
+   - Action: Investigate the issue and implement a solution
+   - Expected Output: The bug should be identified, and a solution should be implemented.
+
+5. Update API Proxy to reflect latest changes
+   - Input: Current API Proxy
+   - Action: Make changes to the API Proxy
+   - Expected Output: The API Proxy should reflect these updates and continue to function correctly.
+
+6. Create a new Pinterest profile
+   - Input: User's necessary details
+   - Action: Add a new Pinterest profile
+   - Expected Output: The profile should be created successfully and be accessible in the IQ Blueprint.
+
+7. Fix Duplicate SF UC List Records Issue
+   - Input: Duplicate UC list records in Salesforce
+   - Action: Initiate the cleanup process
+   - Expected Output: The duplicates should be removed, and the data should be accurate and consistent.
+
+Non-Functional Test Cases:
+
+1. Performance Test: Check the load time of the updated Campaign PDF report, Category List UI, and API Proxy to ensure they meet the performance standard.
+
+2. Usability Test: Test the user experience and intuitiveness of the updated Category List UI and the process of creating a new Pinterest profile.
+
+3. Security Test: Verify the security measures in place for the auto-processing of campaign and account files for Instacart, and for the new Pinterest profile creation.
+
+4. Compatibility Test: Check the compatibility of the updated API Proxy with different systems and software it interacts with.
+
+5. Recovery Test: Test the ability of the system to recover from failures such as a bug in the Campaign Automator or during the cleanup process for duplicate records in Salesforce.
+
+6. Compliance Test: Ensure the system complies with all relevant regulatory standards, especially during the auto-processing of campaign and account files for Instacart.
