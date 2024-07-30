@@ -1,60 +1,84 @@
+
+// ********RoostGPT********
+/*
+
+roost_feedback [7/30/2024, 5:53:17 PM]:Add more data to it and positive and negative test cases
+*/
+
+// ********RoostGPT********
+
+Modified Test Cases:
+
 Functional Test Cases:
 
 1. Define new routes excluding datapoints call:
-   - Input: Define new routes
-   - Expected output: New routes handle request/response objects, datapoints call is not included
+   - Test Case: Add new routes
+   - Input: New routes excluding datapoints call
+   - Expected output: System should successfully define new routes, datapoints call should not be included
 
 2. Investigate RMS crashes occurring on the 9th of each month:
-   - Input: Simulate RMS crashes on the 9th of each month
-   - Expected output: The underlying issue should be identified and a solution should be proposed
+   - Test Case: Simulate RMS crashes
+   - Input: RMS crashes on the 9th of every month
+   - Expected output: System should identify the cause of the crash and propose a solution
 
 3. Enforce co-requisite configuration in Data Access API:
-   - Input: Make a data API request
-   - Expected output: The system should check for co-requisite compatibility and throw an error if the configuration does not pass
+   - Test Case: Check co-requisite configuration
+   - Input: Data API request
+   - Expected output: System should verify co-requisite compatibility and return an error message if the configuration is not compatible
 
 4. Fix issues with audit endpoints:
+   - Test Case: Test audit endpoints
    - Input: Access the audit endpoints
-   - Expected output: The issues with audit endpoints should be resolved and the endpoints should function correctly
+   - Expected output: System should fix the issues with audit endpoints and make them functional
 
 5. Ensure reports reflect timezone based on program settings:
+   - Test Case: Check report timezone
    - Input: Generate a report
-   - Expected output: The correct timezone should be applied and the data should be accurate
+   - Expected output: The report should reflect the correct timezone and data should be accurate
 
 6. Restrict report delivery to non-corporate email addresses:
+   - Test Case: Test report delivery
    - Input: Deliver a report
-   - Expected output: The report should not be sent to non-corporate email domains and should only go to approved email addresses
+   - Expected output: System should not send the report to non-corporate email domains and only to approved email addresses
 
 7. Filter audit endpoints by report type ID:
-   - Input: Apply a filter by report type ID
-   - Expected output: The audit results should be filtered accordingly and only relevant data should be displayed
-
+   - Test Case: Filter audit endpoints
+   - Input: Filter by report type ID
+   - Expected output: The system should filter the audit results accordingly and display only relevant data
 
 Non-Functional Test Cases:
 
 1. Performance Test:
-   - Input: Simultaneous multiple requests to the new routes and audit endpoints
-   - Expected output: The system should handle multiple requests without crashing and within acceptable response time
+   - Test Case: Test performance under multiple requests
+   - Input: Multiple requests to new routes and audit endpoints simultaneously
+   - Expected output: System should handle multiple requests efficiently without crashing and within acceptable response time
 
 2. Security Test:
-   - Input: Attempt unauthorized access to audit endpoints
-   - Expected output: Unauthorized access should be denied
+   - Test Case: Test unauthorized access
+   - Input: Unauthorized access attempt to audit endpoints
+   - Expected output: System should deny unauthorized access
 
 3. Load Test:
-   - Input: Increase the number of requests gradually until the maximum limit
-   - Expected output: The system should handle the increased load without crashing or slowing down significantly
+   - Test Case: Test system under increased load
+   - Input: Gradually increase the number of requests to the maximum limit
+   - Expected output: System should handle the increased load without crashing or slowing down significantly
 
 4. Stress Test:
-   - Input: Exceed the number of maximum requests
-   - Expected Output: The system should handle the stress and recover from crashes if they occur
+   - Test Case: Test system under stress
+   - Input: Exceed the maximum number of requests
+   - Expected Output: The system should handle the stress, recover from crashes if they occur and return to normal operation
 
 5. Usability Test:
+   - Test Case: Test user interaction
    - Input: User interaction with the system
-   - Expected Output: The system should be easy to use and intuitive
+   - Expected Output: The system should be user-friendly, easy to use and intuitive
 
 6. Compatibility Test:
+   - Test Case: Test compatibility
    - Input: Access the system using different devices and browsers
    - Expected Output: The system should be compatible with different devices and browsers
 
 7. Reliability Test:
+   - Test Case: Test reliability
    - Input: Continuous operation of the system
-   - Expected Output: The system should operate without critical failures for a specified period of time
+   - Expected Output: The system should operate continuously without any critical failures for a specified period of time
